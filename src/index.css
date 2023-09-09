@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+	
+.slick-slide > div {
+  margin: 10px 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}

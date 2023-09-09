@@ -1,0 +1,79 @@
+#smallContainer{
+    background-color: #FFB324;
+    width: 95px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: -25px;
+    animation: small 5s linear infinite;
+}
+
+ @keyframes small {
+
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(-15px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+
+#bigContainer{
+    background-color: #FFB324;
+    width: 130px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    animation: big 5s linear infinite;
+    z-index: -1;
+}
+
+
+@keyframes big {
+
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(25px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+#cube{
+    background-color: #FF451B;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 5px;
+    left: 7px;
+    /* z-index: -1; */
+    rotate: 40deg;
+    animation: cube 5s linear infinite;
+}
+
+@keyframes cube {
+
+    0%{
+        transform: translateX(0);
+    }
+
+    50%{
+        transform: translateX(10px);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
