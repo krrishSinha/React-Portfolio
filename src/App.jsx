@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='bg-[#3A3934] overflow-hidden ' >
 
-      <div className='max-h-[100vh] bg-[#3A3934] flex flex-col overflow-hidden' >
+      <div className='bg-[#3A3934] flex flex-col overflow-hidden' >
         <Navbar />
         <Header />
       </div>

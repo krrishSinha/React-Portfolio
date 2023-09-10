@@ -14,17 +14,17 @@ function Contact({ showDetail, title }) {
             {
                 title == 'Contact' ?
 
-                    <div className={`bg-[#494B50] px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`} >
+                    <div className={`bg-[#494B50] px-5 md:px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`} >
 
 
                         {/* header  */}
                         <div className='mb-16' >
                             <p className='font-extrabold text-lg text-[#E34623]'>Contact Me</p>
-                            <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>Contact me to get <br /> your work done</h2>
+                            <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>Contact me to get <br className='hidden md:block' /> your work done</h2>
                         </div>
 
                         {/* form div  */}
-                        <div className='flex justify-between' >
+                        <div className='flex flex-col min-[900px]:flex-row gap-y-10 justify-between' >
                             {/* left  */}
                             <div className='flex flex-col gap-5 w-[50%] ' >
 
@@ -32,7 +32,7 @@ function Contact({ showDetail, title }) {
                                     <div className='bg-[#FFB324] w-fit p-5 rounded-full text-3xl' >
                                         <ImMobile />
                                     </div>
-                                    <div>
+                                    <div className='min-w-full'  >
                                         <h3 className='text-lg font-bold' >Call Me</h3>
                                         <p className='opacity-60' >+123 456 7890</p>
                                     </div>
@@ -43,7 +43,7 @@ function Contact({ showDetail, title }) {
                                     <div className='bg-[#FFB324] w-fit p-5 rounded-full text-3xl' >
                                         <AiOutlineMail />
                                     </div>
-                                    <div>
+                                    <div className='min-w-full' >
                                         <h3 className='text-lg font-bold' >Email Us</h3>
                                         <p className='opacity-60'>hello@iknow.com</p>
                                     </div>
@@ -54,23 +54,24 @@ function Contact({ showDetail, title }) {
                                     <div className='bg-[#FFB324] w-fit p-5 rounded-full text-3xl' >
                                         <CiLocationOn />
                                     </div>
-                                    <div>
+                                    <div className='min-w-full' >
                                         <h3 className='text-lg font-bold'>Address</h3>
-                                        <p className='opacity-60' >20, Bardeshi, Amin Bazar</p>
+                                        <p className='opacity-60' >Delhi, India</p>
                                     </div>
                                 </div>
                             </div>
 
                             {/* right  */}
-                            <div className='w-[85%]' >
+                            <div className='min-[900px]:w-[85%]'>
                                 <form className=' flex flex-col gap-5' >
-                                    <div className='flex gap-5' >
+
+                                    <div className='flex flex-col sm:flex-row gap-5' >
                                         <input className='flex-1 bg-transparent border px-6 py-3 rounded-xl border-gray-500 text-sm text-gray-300 outline-none font-semibold' type="text" placeholder='Your Name' />
 
                                         <input className='flex-1 bg-transparent border px-6 py-3 rounded-xl border-gray-500 text-sm text-gray-300 outline-none font-semibold' type="text" placeholder='Your Email' />
                                     </div>
 
-                                    <div className='flex gap-5' >
+                                    <div className='flex flex-col sm:flex-row gap-5' >
                                         <input className='flex-1 bg-transparent border px-6 py-3 rounded-xl border-gray-500 text-sm text-gray-300 outline-none font-semibold' type="text" placeholder='Your Phone' />
 
                                         <input className='flex-1 bg-transparent border px-6 py-3 rounded-xl border-gray-500 text-sm text-gray-300 outline-none font-semibold' type="text" placeholder='Subject' />

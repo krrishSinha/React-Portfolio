@@ -19,7 +19,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
             {
                 title == "Resume" ?
 
-                    <div className='bg-[#494B50] px-12 py-10 rounded-xl scale-[0.99] transition-all duration-1000' >
+                    <div className='bg-[#494B50] px-5 md:px-12 py-10 rounded-xl scale-[0.99] transition-all duration-1000' >
 
                         {/* header  */}
                         <div className='mb-10' >
@@ -27,9 +27,9 @@ function Resume({ display, setDisplay, showDetail, title }) {
                             <h2 className='text-4xl font-extrabold' >Combination of Skill <br /> & Experience</h2>
                         </div>
 
-                        <div className='flex  gap-20 ' >
+                        <div className='flex flex-col lg:flex-row gap-20 ' >
                             {/* left  */}
-                            <div className='flex flex-col gap-8 w-[50%] ' >
+                            <div className='flex flex-col gap-8 lg:w-[50%] ' >
 
                                 <div>
                                     <div></div>
@@ -37,7 +37,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 </div>
 
                                 <div className='flex flex-col gap-5' >
-                                    <div className='flex items-center justify-between ' >
+                                    <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between' >
                                         <div>
                                             <h3 className='text-xl font-bold' >Cognitive Sciences</h3>
                                             <p className='text-lg font-medium opacity-70 ' >University of Maine</p>
@@ -49,7 +49,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
 
 
                                 <div className='flex flex-col gap-5' >
-                                    <div className='flex items-center justify-between ' >
+                                    <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
                                             <h3 className='text-xl font-bold' >Civil Engineering</h3>
                                             <p className='text-lg font-medium opacity-70 ' >University of Texas</p>
@@ -60,7 +60,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 </div>
 
                                 <div className='flex flex-col gap-5' >
-                                    <div className='flex items-center justify-between ' >
+                                    <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
                                             <h3 className='text-xl font-bold' >Bachelor of Science</h3>
                                             <p className='text-lg font-medium opacity-70 ' >University of Dhaka</p>
@@ -77,7 +77,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 </div>
 
                                 <div className='flex flex-col gap-5' >
-                                    <div className='flex items-center justify-between ' >
+                                    <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
                                             <h3 className='text-xl font-bold' >UI/UX Designer</h3>
                                             <p className='text-lg font-medium opacity-70 ' >Envato Market</p>
@@ -88,7 +88,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 </div>
 
                                 <div className='flex flex-col gap-5' >
-                                    <div className='flex items-center justify-between ' >
+                                    <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
                                             <h3 className='text-xl font-bold' >Creative Designer</h3>
                                             <p className='text-lg font-medium opacity-70 ' >Bahanno Digital</p>
@@ -106,7 +106,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                             </div>
 
                             {/* right  */}
-                            <div className='w-[50%] flex flex-col gap-8 ' >
+                            <div className='lg:w-[50%] flex flex-col gap-10 ' >
 
                                 <div>
                                     <div className='mb-5' >
@@ -148,26 +148,29 @@ function Resume({ display, setDisplay, showDetail, title }) {
 
                                 <div>
 
-                                    <div className='mb-5' >
+                                    <div className='mb-10' >
                                         <div></div>
                                         <h2 className='text-[1.75rem] font-extrabold' >Software Skills</h2>
                                     </div>
 
-                                    <div className='grid grid-cols-2 gap-10 ' >
+                                    <div className='grid grid-cols-2 items-center gap-10 ' >
 
-                                        <div >
+                                        <div className=' mx-auto' >
                                             <img src={single95} alt="" />
                                             <h2 className='text-center mt-3 opacity-90 font-bold' >HTML</h2>
                                         </div>
-                                        <div>
+
+                                        <div className='mx-auto'>
                                             <img src={single90} alt="" />
                                             <h2 className='text-center mt-3 opacity-90 font-bold' >CSS</h2>
                                         </div>
-                                        <div>
+
+                                        <div className='mx-auto' >
                                             <img src={single80} alt="" />
                                             <h2 className='text-center mt-3 opacity-90 font-bold' >javascript</h2>
                                         </div>
-                                        <div>
+
+                                        <div className='mx-auto' >
                                             <img src={single75} alt="" />
                                             <h2 className='text-center mt-3 opacity-90 font-bold' >React Js</h2>
                                         </div>

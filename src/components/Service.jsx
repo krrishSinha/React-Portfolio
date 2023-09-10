@@ -13,7 +13,7 @@ function Service({ showDetail, title }) {
 
             {
                 title == 'Service' ?
-                    <div className={`bg-[#494B50] px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`} >
+                    <div className={`bg-[#494B50] px-5 md:px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`} >
 
                         {/* header  */}
                         <div className='mb-16' >
@@ -22,9 +22,9 @@ function Service({ showDetail, title }) {
                         </div>
 
                         {/* service div  */}
-                        <div className='grid grid-cols-3 gap-x-3 gap-y-5' >
+                        <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-5' >
 
-                            <div className='bg-[#5C5D64] px-8 py-12 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -32,7 +32,7 @@ function Service({ showDetail, title }) {
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-8 py-10 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-10 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -40,7 +40,7 @@ function Service({ showDetail, title }) {
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-8 py-10 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-10 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -48,7 +48,7 @@ function Service({ showDetail, title }) {
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-8 py-12 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -56,7 +56,7 @@ function Service({ showDetail, title }) {
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-8 py-12 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -64,7 +64,7 @@ function Service({ showDetail, title }) {
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-8 py-12 rounded-xl ' >
+                            <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>

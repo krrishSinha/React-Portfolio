@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import { CiReceipt } from 'react-icons/ci'
-import {FaQuoteLeft} from 'react-icons/fa'
+import { FaQuoteLeft } from 'react-icons/fa'
 
 import Slider from "react-slick";
 
@@ -17,7 +17,16 @@ function Testimonial({ showDetail, title }) {
         arrows: false,
         autoplaySpeed: 3000,
         cssEase: "linear",
-      };
+        responsive: [
+            {
+                breakpoint: 850,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    };
 
     return (
 
@@ -27,7 +36,7 @@ function Testimonial({ showDetail, title }) {
 
             {
                 title == 'Testimonial' ?
-                
+
 
                     <div className={`bg-[#494B50] px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`}>
 
@@ -38,16 +47,16 @@ function Testimonial({ showDetail, title }) {
                         </div>
 
                         <div>
-                            
+
                             <Slider {...settings} >
 
-                                <div className='bg-[#5B5C64] px-16 py-10 rounded-xl  ' >
-                                    <p className='text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>    
+                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                                    <p className=' text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>
 
                                     <div className='flex gap-5' >
                                         <img className='w-[50px] h-[50px] rounded-full' src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/1-3.jpg" alt="" />
                                         <div>
-                                            <h3 className='text-xl font-bold' >John Cena</h3>
+                                            <h3 className='text-xl font-bold' >Karan</h3>
                                             <p className='opacity-50 font-semibold' >Designer</p>
                                         </div>
                                         <div className='' >
@@ -56,9 +65,9 @@ function Testimonial({ showDetail, title }) {
                                     </div>
                                 </div>
 
-                               
-                                <div className='bg-[#5B5C64] px-16 py-10 rounded-xl  ' >
-                                    <p className='text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>    
+
+                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                                    <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>
 
                                     <div className='flex gap-5' >
                                         <img className='w-[50px] h-[50px] rounded-full' src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/1-3.jpg" alt="" />
@@ -72,14 +81,14 @@ function Testimonial({ showDetail, title }) {
                                     </div>
                                 </div>
 
-                               
-                                <div className='bg-[#5B5C64] px-16 py-10 rounded-xl  ' >
-                                    <p className='text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>    
+
+                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                                    <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>
 
                                     <div className='flex gap-5' >
                                         <img className='w-[50px] h-[50px] rounded-full' src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/1-3.jpg" alt="" />
                                         <div>
-                                            <h3 className='text-xl font-bold' >Karan Aujla</h3>
+                                            <h3 className='text-xl font-bold' >Aman</h3>
                                             <p className='opacity-50 font-semibold' >Designer</p>
                                         </div>
                                         <div className='' >
@@ -88,14 +97,14 @@ function Testimonial({ showDetail, title }) {
                                     </div>
                                 </div>
 
-                                
-                                <div className='bg-[#5B5C64] px-16 py-10 rounded-xl  ' >
-                                    <p className='text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>    
+
+                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                                    <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum illum a omnis est. Tempore, perferendis repudiandae modi, quidem corrupti.!</p>
 
                                     <div className='flex gap-5' >
                                         <img className='w-[50px] h-[50px] rounded-full' src="https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/1-3.jpg" alt="" />
                                         <div>
-                                            <h3 className='text-xl font-bold' >Sidhu</h3>
+                                            <h3 className='text-xl font-bold' >Siddharth</h3>
                                             <p className='opacity-50 font-semibold' >Designer</p>
                                         </div>
                                         <div className='' >

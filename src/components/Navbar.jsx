@@ -6,7 +6,7 @@ function Navbar() {
     return (
         <section className='bg-[#3A3934] ' >
 
-            <div className='w-[95%] lg:max-w-[1000px] mx-auto py-7 flex items-center justify-between '>
+            <div className='w-[90%] lg:max-w-[1000px] mx-auto py-7 flex items-center justify-between '>
 
                 <div>
                     <img src={logo} alt="" className='w-[90px] ' />

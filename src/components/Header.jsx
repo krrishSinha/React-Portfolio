@@ -9,18 +9,18 @@ import './Header.css'
 
 function Header() {
     return (
-        <section className='bg-[#3A3934] py-16 ' >
+        <section className='bg-[#3A3934] pb-16 md:py-16 ' >
 
-            <div className='w-[95%] lg:max-w-[1000px] mx-auto flex justify-between items-center '>
+            <div className='w-[90%] lg:max-w-[1000px] mx-auto flex flex-col-reverse gap-5 md:gap-0 md:flex-row justify-between items-center '>
 
                 {/* content div  */}
-                <div className='w-[45%]' >
-                    <p className='text-[#FF451B] font-bold text-3xl' >I'm</p>
-                    <h1 className='text-6xl text-white font-bold leading-[1.1] tracking-[.15rem] '  >
-                        KRRISH <br />
+                <div className='w-[100%] md:w-[45%]' >
+                    <p className='text-[#FF451B] font-bold text-2xl lg:text-3xl' >I'm</p>
+                    <h1 className=' text-4xl md:text-6xl text-white font-bold leading-[1.1] mt-3 tracking-[.1rem] md:tracking-[.15rem]'>
+                        KRRISH <br className='hidden md:block' />
                         SINHA
                     </h1>
-                    <p className='opacity-60 text-[1.4rem] font-medium text-white mt-3 mb-5 leading-[1.5]' >A passionate UI/UX Designer and Senior Web Developer based In NYC, USA</p>
+                    <p className='opacity-60 text-lg md:text-[1.4rem] font-medium text-white mt-3 mb-6 leading-[1.5]' >A passionate UI/UX Designer and Senior Web Developer based In Delhi, India</p>
 
                     {/* social links  */}
                     <div className='flex gap-3' >
@@ -44,12 +44,19 @@ function Header() {
                 </div>
 
                 {/* profile div  */}
-                <div className=' py-5 w-[50%] flex justify-end ' >
-                    <div className='relative z-10 ' >
-                        <div id='smallContainer'></div>
-                        <img src={profile} alt="" className=' z-10 rounded-full h-[320px] w-[320px] bg-cover bg-center ' />
-                        <div id='bigContainer'></div>
-                        <div id='cube'></div>
+                <div className=' py-5 w-[100%] md:w-[40%] flex justify-center lg:justify-end ' >
+                    <div className='relative z-10  w-full' >
+                        <div id='smallContainer' className=' hidden md:block'></div>
+
+                        {/* responsive div image   */}
+                        <div className="bg-[url('https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/2-1.jpg')]
+                         w-[100%] h-[300px] bg-cover bg-center rounded-xl block md:hidden" >
+                        </div>
+
+                        <img src={profile} alt="" className=' z-10 rounded-xl md:rounded-full hidden md:block h-[300px] 
+                        w-[300px] lg:h-[320px] lg:w-[320px]' />
+                        <div id='bigContainer' className=' hidden md:block'></div>
+                        <div id='cube' className=' hidden md:block'></div>
                     </div>
                 </div>
 

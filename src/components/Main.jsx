@@ -24,7 +24,7 @@ function Main() {
   }
 
   return (
-    <div className='w-[95%] lg:max-w-[1000px] mx-auto flex flex-col gap-3 overflow-hidden  ' >
+    <div className='w-[90%] lg:max-w-[1000px] mx-auto flex flex-col gap-3 overflow-hidden  ' >
       <About showDetail={showDetail} title={title} />
       <Resume showDetail={showDetail} title={title} />
       <Portfolio showDetail={showDetail} title={title} />
