@@ -15,7 +15,7 @@ function App() {
         <Header />
       </div>
 
-      <div className={`relative z-[1] text-white before:content-[''] before:absolute before:top-[-70px] before:w-[200%] before:h-[200%]  before:bg-[#1D1B1B] before:rotate-[-15deg]  before:z-[-1]  `} >
+      <div className={`w-full mb-12 relative z-[1] text-white md:before:content-[''] md:before:absolute md:before:top-[-70px] md:before:w-[200%] md:before:h-[200%]  md:before:bg-[#1D1B1B] md:before:rotate-[-15deg]  md:before:z-[-1]  `} >
         <Main />
       </div>
 

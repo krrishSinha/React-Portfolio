@@ -4,7 +4,7 @@
     height: 120px;
     position: absolute;
     bottom: 0;
-    left: -25px;
+    left: 0px;
     animation: small 5s linear infinite;
 }
 
@@ -15,7 +15,7 @@
     }
 
     50%{
-        transform: translateX(-15px);
+        transform: translateX(-10px);
     }
 
     100%{
@@ -30,7 +30,7 @@
     height: 250px;
     position: absolute;
     top: 0;
-    right: -15px;
+    right: 0px;
     animation: big 5s linear infinite;
     z-index: -1;
 }
@@ -43,7 +43,7 @@
     }
 
     50%{
-        transform: translateX(25px);
+        transform: translateX(10px);
     }
 
     100%{
@@ -57,7 +57,7 @@
     height: 70px;
     position: absolute;
     top: 5px;
-    left: 7px;
+    left: 20px;
     /* z-index: -1; */
     rotate: 40deg;
     animation: cube 5s linear infinite;

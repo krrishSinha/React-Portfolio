@@ -44,20 +44,21 @@ function Header() {
                 </div>
 
                 {/* profile div  */}
-                <div className=' py-5 w-[100%] md:w-[40%] flex justify-center lg:justify-end ' >
+                <div className=' py-5 w-[100%] md:w-[40%] '>
+
                     <div className='relative z-10  w-full' >
                         <div id='smallContainer' className=' hidden md:block'></div>
-
                         {/* responsive div image   */}
                         <div className="bg-[url('https://shtheme.com/demosd/iknow/wp-content/uploads/2022/04/2-1.jpg')]
                          w-[100%] h-[300px] bg-cover bg-center rounded-xl block md:hidden" >
                         </div>
 
-                        <img src={profile} alt="" className=' z-10 rounded-xl md:rounded-full hidden md:block h-[300px] 
+                        <img src={profile} alt="" className=' z-10 mx-auto md:rounded-full hidden md:block h-[300px] 
                         w-[300px] lg:h-[320px] lg:w-[320px]' />
                         <div id='bigContainer' className=' hidden md:block'></div>
                         <div id='cube' className=' hidden md:block'></div>
                     </div>
+
                 </div>
 
             </div>

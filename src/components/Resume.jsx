@@ -24,7 +24,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                         {/* header  */}
                         <div className='mb-10' >
                             <p className='font-extrabold text-lg text-[#E34623]' >Resume</p>
-                            <h2 className='text-4xl font-extrabold' >Combination of Skill <br /> & Experience</h2>
+                            <h2 className='text-4xl font-extrabold' >Combination of Skill <br className='md:block hidden' /> & Experience</h2>
                         </div>
 
                         <div className='flex flex-col lg:flex-row gap-20 ' >

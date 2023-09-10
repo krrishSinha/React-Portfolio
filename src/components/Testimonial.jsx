@@ -43,7 +43,7 @@ function Testimonial({ showDetail, title }) {
                         {/* header  */}
                         <div className='mb-16' >
                             <p className='font-extrabold text-lg text-[#E34623]'>Testimonials</p>
-                            <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>What people say <br /> about me</h2>
+                            <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>What people say <br className='hidden md:block' /> about me</h2>
                         </div>
 
                         <div>
