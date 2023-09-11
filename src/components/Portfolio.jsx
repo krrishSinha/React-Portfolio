@@ -6,7 +6,7 @@ import { CiReceipt } from 'react-icons/ci'
 function Portfolio({ showDetail, title }) {
 
     return (
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4' data-aos="fade-right" >
 
             <Card name='Portfolio' icon={<CiReceipt />} showDetail={showDetail} />
 

@@ -7,7 +7,7 @@ import { CiLocationOn } from 'react-icons/ci'
 
 function Contact({ showDetail, title }) {
     return (
-        <div className='flex flex-col gap-4'>
+        <div className='flex flex-col gap-4' data-aos="fade-right" >
 
             <Card name='Contact' icon={<CiReceipt />} showDetail={showDetail} />
 
@@ -28,7 +28,7 @@ function Contact({ showDetail, title }) {
                             {/* left  */}
                             <div className='flex flex-col gap-5 w-[50%] ' >
 
-                                <div className='flex gap-3 items-center' >
+                                {/* <div className='flex gap-3 items-center' >
                                     <div className='bg-[#FFB324] w-fit p-5 rounded-full text-3xl' >
                                         <ImMobile />
                                     </div>
@@ -36,7 +36,7 @@ function Contact({ showDetail, title }) {
                                         <h3 className='text-lg font-bold' >Call Me</h3>
                                         <p className='opacity-60' >+123 456 7890</p>
                                     </div>
-                                </div>
+                                </div> */}
 
 
                                 <div className='flex gap-3 items-center' >
@@ -45,7 +45,7 @@ function Contact({ showDetail, title }) {
                                     </div>
                                     <div className='min-w-full' >
                                         <h3 className='text-lg font-bold' >Email Us</h3>
-                                        <p className='opacity-60'>hello@iknow.com</p>
+                                        <p className='opacity-60'>sinhakrrish22@gmail.com</p>
                                     </div>
                                 </div>
 

@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import Card from './Card'
 import { CiReceipt } from 'react-icons/ci'
-import profile2 from '../assets/profile2.webp'
+import profile2 from '../assets/profileImg.png'
 import Button from './Button'
 
 
 function About({ showDetail, title }) {
 
     return (
-        <div className='flex flex-col gap-3' >
+        <div className='flex flex-col gap-3' data-aos="fade-right" >
 
             <Card name='About Me' icon={<CiReceipt />} showDetail={showDetail} />
 
@@ -24,7 +24,7 @@ function About({ showDetail, title }) {
 
                                 <img src={profile2} alt="" className='w-[60%] rounded-xl hidden md:block ' />
 
-                                <div className='bg-[#E34623] px-5 py-5 min-w-[100%] md:min-w-[30%] text-sm flex flex-col gap-5 md:gap-3 rounded-xl md:absolute right-[10px] top-[10%] z-10  ' >
+                                <div className='bg-[#E34623] px-5 py-5 min-w-[100%] md:min-w-[30%] text-sm flex flex-col gap-5 md:gap-3 rounded-xl md:absolute right-[10px] top-[20%] z-10  ' >
 
                                     <div className='border-b-[1px] border-dotted' >
                                         <p>Name</p>
@@ -41,10 +41,10 @@ function About({ showDetail, title }) {
                                         <h3>sinhakrrish22@gmail.com</h3>
                                     </div>
 
-                                    <div className='border-b-[1px] border-dotted' >
+                                    {/* <div className='border-b-[1px] border-dotted' >
                                         <p>Phone</p>
                                         <h3>+123 456 7890</h3>
-                                    </div>
+                                    </div> */}
 
                                     <div className='border-b-[1px] border-dotted' >
                                         <p>Address</p>
@@ -63,9 +63,9 @@ function About({ showDetail, title }) {
                             {/* right div  */}
                             <div className='w-[100%] md:w-[50%] pt-5 md:pt-0 ' >
                                 <p className='text-lg font-bold text-[#E34623]' >About Me</p>
-                                <h2 className='text-4xl font-bold mt-1 ' >World leading UI/UX designer </h2>
-                                <p className='text-lg opacity-70 font-semibold my-5' >A passionate UI/UX Designer and Web Developer based In Delhi, India</p>
-                                <p className='text-sm opacity-60 leading-[1.6] ' >Hi! My name is Krrish Sinha. I am UI/UX designer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional graphic designer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+                                <h2 className='text-4xl font-bold mt-1 ' >World leading Web Developer </h2>
+                                <p className='text-lg opacity-70 font-semibold my-5' >A passionate Senior FullStack Web Developer based In Delhi, India</p>
+                                <p className='text-sm opacity-60 leading-[1.6] ' >Hi! My name is Krrish Sinha. I am Senior FullStack Web Developer and I'm very passionate and dedicated to my work. With 2 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
                                 <div className='mt-8' >
                                     <Button />
                                 </div>

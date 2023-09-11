@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <div className='bg-[#1D1B1B] pt-10 md:pt-24 pb-8'>
+        <div className='bg-[#1D1B1B] pt-10 md:pt-24 pb-8' data-aos="fade-up" >
 
             <footer className='w-[90%] lg:max-w-[1000px] mx-auto text-white flex flex-col md:flex-row items-center gap-y-5 justify-between '>
 

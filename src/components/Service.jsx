@@ -7,7 +7,7 @@ import {AiOutlineBook} from 'react-icons/ai'
 function Service({ showDetail, title }) {
 
     return (
-        <div className='flex flex-col gap-4' >
+        <div className='flex flex-col gap-4' data-aos="fade-left" >
 
             <Card name='Service' icon={<CiReceipt />} showDetail={showDetail} />
 
@@ -36,7 +36,7 @@ function Service({ showDetail, title }) {
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
-                                <h2 className='text-[1.7rem]  font-bold leading-8 my-5' >Experience Design</h2>
+                                <h2 className='text-[1.7rem]  font-bold leading-8 my-5' >Modern layout</h2>
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
@@ -44,11 +44,11 @@ function Service({ showDetail, title }) {
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
-                                <h2 className='text-[1.7rem]  font-bold leading-8 my-5' >Experience Design</h2>
+                                <h2 className='text-[1.7rem]  font-bold leading-8 my-5' >Responsive Design</h2>
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
                             </div>
 
-                            <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
+                            {/* <div className='bg-[#5C5D64] px-5 md:px-8 py-12 rounded-xl ' >
                                 <div className='bg-[#FFB324] w-fit p-6 rounded-full text-5xl' >
                                     <AiOutlineBook />
                                 </div>
@@ -70,7 +70,7 @@ function Service({ showDetail, title }) {
                                 </div>
                                 <h2 className='text-[1.7rem]  font-bold leading-8 my-5' >Experience Design</h2>
                                 <p className='text-base opacity-60 font-semibold leading-[25px] ' >Just because we can’t get out and about like we normally would, doesn’t mean...</p>
-                            </div>
+                            </div> */}
 
                         </div>
 

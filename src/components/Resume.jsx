@@ -12,7 +12,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
 
 
     return (
-        <div className='flex flex-col gap-4 '>
+        <div className='flex flex-col gap-4' data-aos="fade-left" >
 
             <Card name='Resume' icon={<CiReceipt />} showDetail={showDetail} />
 
@@ -39,10 +39,10 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 <div className='flex flex-col gap-5' >
                                     <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between' >
                                         <div>
-                                            <h3 className='text-xl font-bold' >Cognitive Sciences</h3>
-                                            <p className='text-lg font-medium opacity-70 ' >University of Maine</p>
+                                            <h3 className='text-xl font-bold' >High School</h3>
+                                            <p className='text-lg font-medium opacity-70'></p>
                                         </div>
-                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2018 - 2020</button>
+                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2021 - 2022</button>
                                     </div>
                                     <p className=' opacity-60  text-base' >The goal of cognitive science is to understand the principles of intelligence with the hope that this will lead to better comprehension.</p>
                                 </div>
@@ -51,14 +51,14 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 <div className='flex flex-col gap-5' >
                                     <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
-                                            <h3 className='text-xl font-bold' >Civil Engineering</h3>
-                                            <p className='text-lg font-medium opacity-70 ' >University of Texas</p>
+                                            <h3 className='text-xl font-bold' >Bachelor of Commerce </h3>
+                                            <p className='text-lg font-medium opacity-70 ' >University of Delhi</p>
                                         </div>
-                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2016 - 2017</button>
+                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2022 - running</button>
                                     </div>
-                                    <p className=' opacity-60  text-base' >Civil engineering is arguably the oldest engineering discipline. It deals with the built environment and can be dated to the first time someone placed a roof.</p>
+                                    <p className=' opacity-60  text-base'></p>
                                 </div>
-
+{/* 
                                 <div className='flex flex-col gap-5' >
                                     <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
@@ -68,7 +68,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                         <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2012 - 2015</button>
                                     </div>
                                     <p className=' opacity-60  text-base' >This project is called a thesis and is usually presented in front of a group of people, including university professors who will evaluate it and let the student..</p>
-                                </div>
+                                </div> */}
 
 
                                 <div>
@@ -79,23 +79,23 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 <div className='flex flex-col gap-5' >
                                     <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
-                                            <h3 className='text-xl font-bold' >UI/UX Designer</h3>
-                                            <p className='text-lg font-medium opacity-70 ' >Envato Market</p>
+                                            <h3 className='text-xl font-bold' >Frontend Development</h3>
+                                            <p className='text-lg font-medium opacity-70 ' >Freelancing</p>
                                         </div>
-                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2018 - running</button>
+                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2021 - running</button>
                                     </div>
-                                    <p className=' opacity-60  text-base' >Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                                    <p className=' opacity-60  text-base' >Build many professional and Modern Websites which are fully responsive.</p>
                                 </div>
 
                                 <div className='flex flex-col gap-5' >
                                     <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                         <div>
-                                            <h3 className='text-xl font-bold' >Creative Designer</h3>
-                                            <p className='text-lg font-medium opacity-70 ' >Bahanno Digital</p>
+                                            <h3 className='text-xl font-bold' >React Developer</h3>
+                                            <p className='text-lg font-medium opacity-70'>Nabloo</p>
                                         </div>
-                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2015 - 2017</button>
+                                        <button className='border rounded-full text-[#E34623] text-lg px-6 py-2 ' >2022 - running</button>
                                     </div>
-                                    <p className=' opacity-60  text-base' >Web Developers are build a website’s core structure using coding languages, while designers are more visually creative and user-focused.</p>
+                                    <p className=' opacity-60  text-base' >Build Modern Single Page Web Applications using Tailwind and React Js.</p>
                                 </div>
 
 
@@ -135,10 +135,10 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                         </div>
 
                                         <div>
-                                            <p className='text-xl font-bold' >Intigrity</p>
+                                            <p className='text-xl font-bold' >Honesty</p>
 
-                                            <div className='w-[70%] h-[5px] bg-[#E34623] rounded-xl relative mt-3' >
-                                                <p className='absolute top-[-28px] right-1 ' >80%</p>
+                                            <div className='w-[90%] h-[5px] bg-[#E34623] rounded-xl relative mt-3' >
+                                                <p className='absolute top-[-28px] right-1 ' >100%</p>
                                             </div>
                                             <div className='w-[90%] h-[8px] bg-[#777A7F] rounded-xl relative mt-1' ></div>
                                         </div>

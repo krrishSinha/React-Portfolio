@@ -3,9 +3,13 @@ import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
 import Navbar from './components/Navbar'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 
 function App() {
+
+  AOS.init();
 
   return (
     <div className='bg-[#3A3934] overflow-hidden ' >
