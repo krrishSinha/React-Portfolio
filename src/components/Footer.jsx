@@ -10,11 +10,11 @@ function Footer() {
                     <span className='font-semibold ml-1 cursor-pointer transition-all duration-200 hover:text-[#FF451B]'>Krrish Sinha</span>
                 </h3>
 
-                <div className='flex gap-3 justify-center items-center' >
+                {/* <div className='flex gap-3 justify-center items-center' >
                     <p className='text-base text-gray-400 font-medium cursor-pointer transition-all duration-200 hover:text-[#FF451B]'>Terms & Condition</p>
                     <p className='text-base text-gray-400 font-medium cursor-pointer transition-all duration-200 hover:text-[#FF451B]'>Privacy Policy</p>
                     <p className='text-base text-gray-400 font-medium cursor-pointer transition-all duration-200 hover:text-[#FF451B]'>Login</p>
-                </div>
+                </div> */}
 
             </footer>
 

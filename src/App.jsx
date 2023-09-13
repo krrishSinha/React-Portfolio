@@ -12,7 +12,7 @@ function App() {
   AOS.init();
 
   return (
-    <div className='bg-[#3A3934] overflow-hidden ' >
+    <div id='main' className='bg-[#3A3934] overflow-hidden ' >
 
       <div className='bg-[#3A3934] flex flex-col overflow-hidden' >
         <Navbar />
