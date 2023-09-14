@@ -30,88 +30,80 @@ function Testimonial({ showDetail, title }) {
 
     return (
 
-        <div className='flex flex-col gap-4' data-aos="fade-right" >
+        <div className='flex flex-col gap-4'  >
 
-            <Card name='Testimonial' icon={<CiReceipt />} showDetail={showDetail} />
+            {/* <Card name='Testimonial' icon={<CiReceipt />} showDetail={showDetail} /> */}
 
-            {
-                title == 'Testimonial' ?
+            <div className={`bg-[#494B50] px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`}>
 
+                {/* header  */}
+                <div className='mb-16' >
+                    <p className='font-extrabold text-lg text-[#E34623]'>Testimonials</p>
+                    <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>What people say <br className='hidden md:block' /> about me</h2>
+                </div>
 
-                    <div className={`bg-[#494B50] px-10 py-10 rounded-xl scale-[0.99] transition-all duration-1000`}>
+                <div>
 
-                        {/* header  */}
-                        <div className='mb-16' >
-                            <p className='font-extrabold text-lg text-[#E34623]'>Testimonials</p>
-                            <h2 className='text-4xl font-extrabold  leading-[2.8rem]'>What people say <br className='hidden md:block' /> about me</h2>
+                    <Slider {...settings} >
+
+                        <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                            <p className=' text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
+                                I have been using the services of Nablooo for quite a while now. They have given extremely good results for every project assigned to them. They are responsive, thorough and have never missed a deadline. Overall, I am really satisfied.
+                            </p>
+
+                            <div className='flex gap-5' >
+                                <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/Piyush_Matta-1.jpg" alt="" />
+                                <div>
+                                    <h3 className='text-xl font-bold' >piyush Matta</h3>
+                                    {/* <p className='opacity-50 font-semibold' >Designer</p> */}
+                                </div>
+                                <div className='' >
+                                    <FaQuoteLeft className='text-yellow-400 text-3xl ' />
+                                </div>
+                            </div>
                         </div>
 
-                        <div>
 
-                            <Slider {...settings} >
+                        <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                            <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
+                                I have been using the services of Nablooo for quite a while now. They have given extremely good results for every project assigned to them. They are responsive, thorough and have never missed a deadline. Overall, I am really satisfied.
+                            </p>
 
-                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
-                                    <p className=' text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
-                                    I have been using the services of Nablooo for quite a while now. They have given extremely good results for every project assigned to them. They are responsive, thorough and have never missed a deadline. Overall, I am really satisfied.
-                                    </p>
-
-                                    <div className='flex gap-5' >
-                                        <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/Piyush_Matta-1.jpg" alt="" />
-                                        <div>
-                                            <h3 className='text-xl font-bold' >piyush Matta</h3>
-                                            {/* <p className='opacity-50 font-semibold' >Designer</p> */}
-                                        </div>
-                                        <div className='' >
-                                            <FaQuoteLeft className='text-yellow-400 text-3xl ' />
-                                        </div>
-                                    </div>
+                            <div className='flex gap-5' >
+                                <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/teacher-home-life-coach-and-career-strategist-piyush-somani-can-help-you-achieve-any-personal-goal-the-area-career-relationships-stress.jpg" alt="" />
+                                <div>
+                                    <h3 className='text-xl font-bold' >Punnet Singh </h3>
+                                    {/* <p className='opacity-50 font-semibold' >Designer</p> */}
                                 </div>
-
-
-                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
-                                    <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
-                                    I have been using the services of Nablooo for quite a while now. They have given extremely good results for every project assigned to them. They are responsive, thorough and have never missed a deadline. Overall, I am really satisfied.
-                                    </p>
-
-                                    <div className='flex gap-5' >
-                                        <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/teacher-home-life-coach-and-career-strategist-piyush-somani-can-help-you-achieve-any-personal-goal-the-area-career-relationships-stress.jpg" alt="" />
-                                        <div>
-                                            <h3 className='text-xl font-bold' >Punnet Singh </h3>
-                                            {/* <p className='opacity-50 font-semibold' >Designer</p> */}
-                                        </div>
-                                        <div className='' >
-                                            <FaQuoteLeft className='text-yellow-400 text-3xl ' />
-                                        </div>
-                                    </div>
+                                <div className='' >
+                                    <FaQuoteLeft className='text-yellow-400 text-3xl ' />
                                 </div>
-
-
-                                <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
-                                    <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
-                                    I can trust them with closed eyes as these guys will deliver me the best from the market. Who’ll go to someone else if you have these guys by your side to manage your website and web portfolios? Believe me these guys will never let you down.
-                                    </p>
-
-                                    <div className='flex gap-5' >
-                                        <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/jagmeet-150x150.webp" alt="" />
-                                        <div>
-                                            <h3 className='text-xl font-bold' >Jagmeet Kaur</h3>
-                                            {/* <p className='opacity-50 font-semibold' >Designer</p> */}
-                                        </div>
-                                        <div className='' >
-                                            <FaQuoteLeft className='text-yellow-400 text-3xl ' />
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </Slider>
-
+                            </div>
                         </div>
 
-                    </div>
 
-                    :
-                    <div></div>
-            }
+                        <div className='bg-[#5B5C64] px-5 md:px-16 py-10 rounded-xl  ' >
+                            <p className='text-lg md:text-xl text-gray-300  opacity-80 font-semibold italic mb-7'>
+                                I can trust them with closed eyes as these guys will deliver me the best from the market. Who’ll go to someone else if you have these guys by your side to manage your website and web portfolios? Believe me these guys will never let you down.
+                            </p>
+
+                            <div className='flex gap-5' >
+                                <img className='w-[50px] h-[50px] rounded-full' src="https://nablooo.com/wp-content/uploads/2023/08/jagmeet-150x150.webp" alt="" />
+                                <div>
+                                    <h3 className='text-xl font-bold' >Jagmeet Kaur</h3>
+                                    {/* <p className='opacity-50 font-semibold' >Designer</p> */}
+                                </div>
+                                <div className='' >
+                                    <FaQuoteLeft className='text-yellow-400 text-3xl ' />
+                                </div>
+                            </div>
+                        </div>
+
+                    </Slider>
+
+                </div>
+
+            </div>
 
 
         </div>

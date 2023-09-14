@@ -19,11 +19,11 @@ function App() {
         <Header />
       </div>
 
-      <div className={`w-full mb-12 relative z-[1] text-white md:before:content-[''] md:before:absolute md:before:top-[-70px] md:before:w-[200%] md:before:h-[200%]  md:before:bg-[#1D1B1B] md:before:rotate-[-15deg]  md:before:z-[-1]  `} >
+      <div className={`w-full mb-12 relative z-[1] text-white md:before:content-[''] md:before:absolute md:before:left-[-50px] md:before:top-[-70px] md:before:min-w-[250%] lg:before:min-w-[200%] md:before:min-h-[200%]  md:before:bg-[#1D1B1B] md:before:rotate-[-10deg]  before:z-[-1] md:before:z-[-1]  `} >
         <Main />
       </div>
 
-      <div className=' relative z-10' >
+      <div className=' relative z-[1] ' >
         <Footer />
       </div>
 

@@ -4,7 +4,7 @@
     height: 120px;
     position: absolute;
     bottom: 0;
-    left: 0px;
+    left: 30px;
     animation: small 5s linear infinite;
 }
 
@@ -30,7 +30,7 @@
     height: 250px;
     position: absolute;
     top: 0;
-    right: 0px;
+    right: 20px;
     animation: big 5s linear infinite;
     z-index: -1;
 }
@@ -57,7 +57,7 @@
     height: 70px;
     position: absolute;
     top: 5px;
-    left: 20px;
+    left: 40px;
     /* z-index: -1; */
     rotate: 40deg;
     animation: cube 5s linear infinite;
@@ -78,3 +78,20 @@
     }
 }
 
+@media (max-width: 1000px){
+    #cube{
+    top: 0px;
+    left: 10px;
+    display: none;
+    }
+
+    #smallContainer{
+        display: none;
+    left: 0px;
+    }
+
+    #bigContainer{
+    right: -20px;
+    display: none;
+    }
+}
