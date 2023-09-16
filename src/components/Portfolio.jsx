@@ -47,7 +47,7 @@ function Portfolio({ showDetail, title }) {
                                             className={`max-h-[300px] rounded-xl group relative cursor-pointer overflow-y-hidden transition-all duration-200 hover:scale-[1.015]  `}>
 
                                             <img src={portfolio.img} alt="" loading='lazy'
-                                                className='h-auto w-full transition-all duration-[10000ms] hover:-translate-y-[calc(100%-300px)] ' />
+                                                className='h-auto w-full transition-all duration-[20000ms] hover:-translate-y-[calc(100%-300px)] ' />
 
                                         </div>
                                     )

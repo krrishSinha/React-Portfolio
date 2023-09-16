@@ -11,7 +11,7 @@ function Navbar() {
 
                 <div>
                     <a href="/">
-                        <img src={logo} alt="" className='w-[90px] ' />
+                        <img src={logo} alt="" className='w-[90px] -ml-1 md:-ml-2 ' />
                     </a>
                     {/* #FFB324
                     #FF451B */}

@@ -2,10 +2,21 @@ import React, { useState } from 'react'
 import Card from './Card'
 import { CiReceipt } from 'react-icons/ci'
 import Button from './Button'
-import single95 from '../assets/single95suffix.png'
-import single90 from '../assets/single90suffix.png'
-import single80 from '../assets/single80suffix.png'
-import single75 from '../assets/single75suffix.png'
+
+import html from '../assets/stack/HTML.png'
+import css from '../assets/stack/CSS.png'
+import javascript from '../assets/stack/Javascript.svg'
+import react from '../assets/stack/React.png'
+import node from '../assets/stack/NodeJs.svg'
+import next from '../assets/stack/NextJsCircle.png'
+import redux from '../assets/stack/Redux.svg'
+import tailwind from '../assets/stack/Tailwind.png'
+import express from '../assets/stack/Express.png'
+import mongodb from '../assets/stack/MongoDB.svg'
+import git from '../assets/stack/Git.svg'
+import github from '../assets/stack/Github.svg'
+
+
 
 function Resume({ display, setDisplay, showDetail, title }) {
 
@@ -36,13 +47,13 @@ function Resume({ display, setDisplay, showDetail, title }) {
                         <div className='flex flex-col gap-5' >
                             <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between' >
                                 <div>
-                                    <h3 className='text-xl font-bold' >High School</h3>
+                                    <h3 className='text-xl font-bold' >Higher Secondary</h3>
                                     <p className='text-lg font-medium opacity-70'></p>
                                 </div>
                                 <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-200
                                 hover:bg-[#E34623]' >2021 - 2022</button>
                             </div>
-                            <p className=' opacity-60  text-base' >The goal of cognitive science is to understand the principles of intelligence with the hope that this will lead to better comprehension.</p>
+                            {/* <p className=' opacity-60  text-base' >The goal of commerce education is to understand the principles of accounting, business, ethics, entrepreneurial skills, and ethical decision-making.</p> */}
                         </div>
 
 
@@ -53,7 +64,7 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                     <p className='text-lg font-medium opacity-70 ' >University of Delhi</p>
                                 </div>
                                 <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-200
-                                hover:bg-[#E34623] ' >2022 - running</button>
+                                hover:bg-[#E34623] ' >2022 - 2025</button>
                             </div>
                             <p className=' opacity-60  text-base'></p>
                         </div>
@@ -75,28 +86,26 @@ function Resume({ display, setDisplay, showDetail, title }) {
                             <h2 className='text-[1.75rem] font-extrabold' >Experience</h2>
                         </div>
 
-                        <div className='flex flex-col gap-5' >
+                        <div className='flex flex-col gap-3' >
                             <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                 <div>
                                     <h3 className='text-xl font-bold' >Frontend Development</h3>
-                                    <p className='text-lg font-medium opacity-70 ' >Freelancing</p>
+                                    {/* <p className='text-lg font-medium opacity-70 '>Freelancing</p> */}
                                 </div>
-                                <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-200
-                                hover:bg-[#E34623]' >2021 - running</button>
+                                {/* <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-200 hover:bg-[#E34623]' >2021 - running</button> */}
                             </div>
-                            <p className=' opacity-60  text-base' >Build many professional and Modern Websites which are fully responsive.</p>
+                            <p className=' opacity-60 text-base'>I've had the privilege to work with a diverse range of clients and projects, each offering a unique set of challenges. From responsive web design to optimizing performance and accessibility</p>
                         </div>
 
-                        <div className='flex flex-col gap-5' >
+                        <div className='flex flex-col gap-3' >
                             <div className='flex flex-col md:flex-row gap-y-4 md:items-center justify-between ' >
                                 <div>
                                     <h3 className='text-xl font-bold' >React Developer</h3>
-                                    <p className='text-lg font-medium opacity-70'>Nabloo</p>
+                                    {/* <p className='text-lg font-medium opacity-70'>Nabloo</p> */}
                                 </div>
-                                <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-200
-                                hover:bg-[#E34623]' >2022 - running</button>
+                                {/* <button className='border rounded-full text-[#fff] text-lg px-6 py-2 transition-all duration-20 hover:bg-[#E34623]' >2022 - running</button> */}
                             </div>
-                            <p className=' opacity-60  text-base' >Build Modern Single Page Web Applications using Tailwind and React Js.</p>
+                            <p className=' opacity-60  text-base'>I have experience as a React.js developer, specializing in creating responsive user interfaces, state management with Redux, API integration, and collaborating within agile teams to deliver high-quality web applications.</p>
                         </div>
 
 
@@ -129,8 +138,8 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                 <div>
                                     <p className='text-xl font-bold' >Effeciency</p>
 
-                                    <div className='w-[60%] h-[5px] bg-[#E34623] rounded-xl relative mt-3' >
-                                        <p className='absolute top-[-28px] right-1 ' >70%</p>
+                                    <div className='w-[85%] h-[5px] bg-[#E34623] rounded-xl relative mt-3' >
+                                        <p className='absolute top-[-28px] right-1 ' >95%</p>
                                     </div>
                                     <div className='w-[90%] h-[8px] bg-[#777A7F] rounded-xl relative mt-1' ></div>
                                 </div>
@@ -151,10 +160,10 @@ function Resume({ display, setDisplay, showDetail, title }) {
 
                             <div className='mb-10' >
                                 <div></div>
-                                <h2 className='text-[1.75rem] font-extrabold' >Software Skills</h2>
+                                <h2 className='text-[1.75rem] font-extrabold' >Tech Stack</h2>
                             </div>
 
-                            <div className='grid grid-cols-2 items-center gap-10 ' >
+                            {/* <div className='grid grid-cols-2 items-center gap-10 ' >
 
                                 <div className=' mx-auto' >
                                     <img src={single95} alt="" />
@@ -176,6 +185,20 @@ function Resume({ display, setDisplay, showDetail, title }) {
                                     <h2 className='text-center mt-3 opacity-90 font-bold' >React Js</h2>
                                 </div>
 
+                            </div> */}
+
+                            <div className='grid grid-cols-4 justify-items-center gap-x-3 gap-y-7 '  >
+                                <img src={html} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={css} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={javascript} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={react} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={node} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={next} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={redux} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={tailwind} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={express} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={git} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
+                                <img src={github} alt="" className='w-[50px] sm:w-[60px] cursor-pointer transition-all duration-200 hover:scale-[1.1] ' />
                             </div>
 
                         </div>

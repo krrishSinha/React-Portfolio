@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Card from './Card'
 import { CiReceipt } from 'react-icons/ci'
-import profile2 from '../assets/profileImg.png'
+import headerImg from '../assets/headerImg.png'
 import Button from './Button'
 import cv from  '../assets/Resume.pdf'
 
@@ -21,7 +21,7 @@ function About({ showDetail, title }) {
                     {/* left div  */}
                     <div className='w-[100%] md:w-[50%] flex relative items-start  ' >
 
-                        <img src={profile2} alt="" className='w-[60%] rounded-xl hidden md:block ' />
+                        <img src={headerImg} alt="" className='w-[60%] rounded-xl hidden md:block ' />
 
                         <div className='bg-[#E34623] px-5 py-5 min-w-[100%] md:min-w-[30%] text-sm flex flex-col gap-5 md:gap-3 rounded-xl md:absolute right-[10px] top-[20%] z-10  ' >
 
@@ -63,8 +63,8 @@ function About({ showDetail, title }) {
                     <div className='w-[100%] md:w-[50%] pt-5 md:pt-0 ' >
                         <p className='text-lg font-bold text-[#E34623]' >About Me</p>
                         <h2 className='text-4xl font-bold mt-1 ' >World leading Web Developer </h2>
-                        <p className='text-lg opacity-70 font-semibold my-5' >A passionate Senior FullStack Web Developer based In Delhi, India</p>
-                        <p className='text-sm opacity-60 leading-[1.6] ' >Hi! My name is Krrish Sinha. I am Senior FullStack Web Developer and I'm very passionate and dedicated to my work. With 2 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
+                        <p className='text-lg opacity-70 font-semibold my-5' >Experienced web developer skilled in creating modern, responsive & user-friendly websites.</p>
+                        <p className='text-sm opacity-60 leading-[1.6] ' >Hi! My name is Krrish Sinha. I am Senior Full Stack Web Developer and I'm very passionate and dedicated to my work. With 2 years experience as a professional web developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
                         <div className='mt-8' >
                             <Button text={'DOWNLOAD CV'} cv={cv} />
                         </div>

@@ -9,7 +9,7 @@ function PortfolioModal({portfolio, setShow, show}) {
     return (
         <>
             <div className='fixed w-[100%] h-[100%]  bg-black bg-opacity-80 top-0 bottom-0 left-0 z-10 flex items-center justify-center' >
-                <div className='w-[90%] max-h-[80%] overflow-y-scroll border-2 border-gray-400 ' >
+                <div className='w-[90%] max-h-[80%] overflow-y-scroll border-gray-400 ' >
                     <img src={portfolio.img} alt="" className='w-full' loading='lazy' />
                 </div>
 
